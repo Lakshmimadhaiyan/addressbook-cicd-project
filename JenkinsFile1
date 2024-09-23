@@ -13,7 +13,7 @@ new commit  pipeline{
             steps{
                 git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
             }
-        }
+        } 
         stage('Compile'){
             agent any
             steps{
